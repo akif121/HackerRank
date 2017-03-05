@@ -1,8 +1,4 @@
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class AppleOrange {
 
@@ -37,6 +33,7 @@ public class AppleOrange {
                         oflag++;
             }
         }
+        in.close();
        System.out.println(aflag);
         System.out.println(oflag);
         
